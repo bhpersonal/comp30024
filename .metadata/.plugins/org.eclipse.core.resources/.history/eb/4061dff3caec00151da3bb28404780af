@@ -1,0 +1,27 @@
+package State;
+
+public class Board {
+	
+	public static final int Untaken = 0;
+	
+	public static final int TakenByPlayer1 = 1;
+	
+	public static final int TakenByPlayer2 = 2;
+	
+	public int hexCount; // prob faster than HexStates.Length
+	
+	public int edgeCount; // prob faster than EdgeStates.Length
+	
+	public byte[] hexStates;
+	
+	public byte[] edgeStates;
+	
+	public byte[][] hexEdges;
+	
+	public byte[][] edgeHexes;
+	
+	public Board(int dimension)
+	{
+		
+	}
+}

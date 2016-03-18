@@ -1,0 +1,8 @@
+package State;
+
+public enum EdgeState {
+
+	NotTaken,
+	TakenByPlayer1,
+	TakenByPlayer2
+}

@@ -1,0 +1,19 @@
+package State;
+
+public class Board {
+	
+	public static final int Untaken = 0;
+	
+	public static final int TakenByPlayer1 = 1;
+	
+	public static final int TakenByPlayer2 = 2;
+	
+	
+	// Hexes are implicitly 1-N
+	
+	// Edges are implicitly 1-M
+	
+	public byte[] HexStates; // 0, 1, or 2
+	
+	public byte[] EdgeStates; // 0, 1 o r2
+}
